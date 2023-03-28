@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Tarefas",
+    "slug": "Tarefas",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/contabil.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/contabil.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.tsuna10vongola.Tarefas"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3637e7ab-2c57-458b-962b-33858af6fd45"
+      }
+    }
+  }
+}
